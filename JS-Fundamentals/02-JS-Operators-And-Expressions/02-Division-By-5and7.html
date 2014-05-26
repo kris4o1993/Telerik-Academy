@@ -1,0 +1,29 @@
+<!--
+ 2. Write a boolean expression that checks for given integer if it can be divided
+ (without remainder) by 7 and 5 in the same time.
+
+ -->
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <input type="text" id="input"/>
+    <input type="button" value="Check Integer" onclick="checkInteger()">
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkInteger(){
+            var input = jsConsole.readInteger("#input");
+            if (input % 7 === 0 && input % 5 === 0){
+                jsConsole.writeLine("The number " + input + " IS divisible by 5 and 7 at the same time.");
+            } else {
+                jsConsole.writeLine("The number " + input + " IS NOT divisible by 5 and 7 at the same time.");
+            }
+        }
+    </script>
+</body>
+</html>

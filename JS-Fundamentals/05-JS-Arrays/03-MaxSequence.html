@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title></title>
+    <link href='styles/js-console.css' rel='stylesheet'/>
+</head>
+
+<body>
+    <h2>
+        3. Write a script that finds the maximal sequence of equal elements in an array
+    </h2>
+    <div id='js-console'></div>
+    <script src='scripts/js-console.js'></script>
+    <script>
+        var input = [2, 1, 1, 2, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1],
+            maxLength = 1,
+            counter = 1,
+            mostRepeatedInteger = input[0];
+        for (var i = 1; i <= input.length; i++) {
+            if (input [i] === input [i-1]) {
+               counter++;
+                if ( counter > maxLength) {
+                    maxLength = counter;
+                    mostRepeatedInteger = input[i];
+                }
+            } else {
+                counter = 1;
+            }
+        }
+
+
+
+        var output = new Array(maxLength + 1).join(mostRepeatedInteger + ' ');
+        jsConsole.writeLine('2, 1, 1, 2, 3, 3, 3, 3, 3, 2, 2, 2, 2, 1 -> ' + output);
+
+
+        }
+    </script>
+</body>
+</html>

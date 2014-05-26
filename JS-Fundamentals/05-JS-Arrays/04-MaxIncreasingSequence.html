@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title></title>
+    <link href='styles/js-console.css' rel='stylesheet'/>
+</head>
+
+<body>
+    <h2>
+        4. Write a script that finds the maximal increasing sequence in an array.
+    </h2>
+    <div id='js-console'></div>
+    <script src='scripts/js-console.js'></script>
+    <script>
+        //find the biggest element in the increasing sequence, as well as the sequence length
+        var input = [3, 2, 3, 4, 2, 2, 4],
+            endElement = input[0],
+            counter = 1,
+            maxLength = 1;
+        for (var i = 1; i <= input.length; i++) {
+            if (input [i] === input [i-1] + 1) {
+                counter++;
+                if ( counter > maxLength) {
+                    maxLength = counter;
+                    endElement = input[i];
+                }
+            } else {
+                counter = 1;
+            }
+        }
+
+        //getting all elements needed to print
+        var sequence = '';
+        for (var i = 0; i < maxLength; i++, endElement--) {
+            sequence += endElement + ' ';
+        }
+
+        //reversing them
+        var output = sequence.split("").reverse().join("");
+
+        jsConsole.writeLine('3, 2, 3, 4, 2, 2, 4 -> ' + output);
+
+    </script>
+</body>
+</html>

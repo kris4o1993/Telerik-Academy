@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <input type="text" class="input"/>
+    <br/>
+    <input type="text" class="input"/>
+    <br/>
+    <input type="text" class="input"/>
+    <br/>
+    <input type="text" class="input"/>
+    <br/>
+    <input type="text" class="input"/>
+    <br/>
+    <input type="button" value="Solve" onclick="solve()">
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function solve() {
+            jsConsole.writeLine("7. Write a script that finds the greatest of given 5 variables.");
+            jsConsole.writeLine("");
+            var numbers = document.getElementsByClassName("input"),
+                arr = [],
+                maxNum = Number.MIN_SAFE_INTEGER,
+                tempNum;
+
+            for (var i = 0; i < numbers.length; i++) {
+                tempNum = numbers[i].value | 0;
+                if (tempNum > maxNum) {
+                    maxNum = tempNum;
+                }
+            }
+            jsConsole.writeLine("The biggest number is " + maxNum)
+        }
+    </script>
+</body>
+</html>

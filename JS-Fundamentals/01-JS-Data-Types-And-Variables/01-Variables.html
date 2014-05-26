@@ -1,0 +1,44 @@
+﻿<html>
+
+<head>
+	<title></title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+
+<body>
+	<div id="js-console"></div>				 
+	<script src="scripts/js-console.js"></script>
+	<script>
+        //1. Assign all the possible JavaScript literals to different variables.
+        //3. Try typeof on all variables you created.
+        //4. Create null, undefined variables and try typeof on them.
+
+        var num = 29; //shows a whole number
+        var anotherNum = 3.1415; //shows a floating point number
+        var str = '100 prais tei'; //a simple string
+        var hasDick = true; //a simple boolean variable that clearly says that the programmer is a male individual
+        var achievements = ["Sarcastic", "Cool", "Beautiful", "Handsome", "...Did I mentioned beautiful"]; //array (which is object)
+
+        jsConsole.writeLine(num + " - shows a  whole number");
+        jsConsole.writeLine(anotherNum + " - shows a floating point number");
+        jsConsole.writeLine(str + " - a simple string");
+        jsConsole.writeLine(hasDick + " - a simple boolean variable that clearly says that the programmer " +
+                "is a male individual");
+        jsConsole.writeLine(achievements.join(", ") + " - array of the programmer's qualities");
+        jsConsole.writeLine("");
+        jsConsole.writeLine("");
+        jsConsole.writeLine(typeof (num));
+        jsConsole.writeLine(typeof (anotherNum));
+        jsConsole.writeLine(typeof (str));
+        jsConsole.writeLine(typeof (hasDick));
+        jsConsole.writeLine(typeof (achievements));
+        jsConsole.writeLine("");
+        jsConsole.writeLine("");
+        var emptyVar;
+        var nullVar = null;
+        jsConsole.writeLine(typeof (emptyVar));
+        jsConsole.writeLine(typeof (nullVar));
+	</script>
+</body>
+
+</html>

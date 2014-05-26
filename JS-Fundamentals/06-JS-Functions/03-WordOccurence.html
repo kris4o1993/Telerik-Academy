@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title></title>
+    <link href='styles/js-console.css' rel='stylesheet'/>
+</head>
+
+<body>
+    <h2>3. Write a function that finds all the occurrences of word in a text</h2>
+    <div id='js-console'></div>
+    <script src='scripts/js-console.js'></script>
+    <script>
+        function countOccurrences(text, checkWord) {
+            var formattedText = text.replace(/[^\w\s]/gi, '');
+            var textArr = formattedText.toLowerCase().split(' ');
+            var count = 0;
+            for (var i = 0; i < textArr.length; i++) {
+                if (textArr[i] === checkWord) {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+        var text = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ' +
+                'In vitae nunc in leo lobortis tincidunt quis a nulla. ' +
+                'Nulla mollis, nibh at fermentum molestie, elit nisi blandit tortor,' +
+                ' eget mollis nunc turpis id ante. Suspendisse egestas ultrices ante ' +
+                'nec commodo. Integer elementum libero non dolor sagittis sollicitudin. ' +
+                'Donec eget nunc at nulla lacinia bibendum. Duis lobortis orci sit amet ' +
+                'elementum blandit. Vestibulum tempus volutpat massa. Donec varius sed ' +
+                'mi at dictum. Cras lectus orci, tincidunt ut viverra vel, ' +
+                'porta quis enim';
+        var checkWord = 'dolor';
+        jsConsole.writeLine('The chosen word is repeated ' + countOccurrences(text, checkWord) + ' times');
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!--
+ 4. Write an expression that checks for given integer if
+ its third digit (right-to-left) is 7. E. g. 1732  true.
+ -->
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <input type="text" id="input"/>
+    <input type="button" value="Check Third Digit" onclick="checkDigit()">
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkDigit(){
+            var input = jsConsole.readFloat("#input") ;
+            var digit = (Math.floor(input/ 100) % 10);
+            jsConsole.writeLine("The third digit (right-to-left) of the number " + input + " is " + digit);
+        }
+    </script>
+</body>
+</html>

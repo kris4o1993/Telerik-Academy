@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title></title>
+    <link href='styles/js-console.css' rel='stylesheet'/>
+</head>
+
+<body>
+    <input type='text' id='numbers'/>
+    <br/>
+    <input type='button' value='Show me the magic!' onclick='solve()'>
+    <div id='js-console'></div>
+    <script src='scripts/js-console.js'></script>
+    <script>
+        function solve() {
+            jsConsole.writeLine('3. Write a script that finds the max and min number from a sequence of numbers.' +
+                    'Enter the numbers in the following format: 1, 2, 3, 4, ... ');
+            jsConsole.writeLine('');
+            var numbers = jsConsole.read('#numbers'),
+                arr = [],
+                maxNum = Number.MIN_SAFE_INTEGER,
+                minNum = Number.MAX_SAFE_INTEGER,
+                tempNum;
+
+            arr = numbers.split(', ');
+
+            for (var i = 0; i < arr.length; i++) {
+                tempNum = arr[i] | 0;
+                if (tempNum > maxNum) {
+                    maxNum = tempNum;
+                }
+
+                if (tempNum < minNum) {
+                    minNum = tempNum;
+                }
+            }
+            jsConsole.writeLine("Min Num => " + minNum);
+            jsConsole.writeLine("Max Num => " + maxNum);
+        }
+    </script>
+</body>
+</html>

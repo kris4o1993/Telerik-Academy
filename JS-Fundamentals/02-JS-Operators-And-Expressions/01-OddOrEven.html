@@ -1,0 +1,28 @@
+﻿<!--
+ 1. Write an expression that checks if given integer is odd or even.
+ -->
+<html>
+<head>
+    <title></title>
+    <link href="styles/js-console.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <input type="text" id="input"/>
+    <input type="button" value="Check Integer" onclick="checkInteger()">
+
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        function checkInteger() {
+            var input = jsConsole.readInteger("#input");
+            if (input % 2 === 0) {
+                jsConsole.writeLine("The number " + input + " is even.");
+            }
+            else {
+                jsConsole.writeLine("The number " + input + " is odd.");
+            }
+        }
+    </script>
+</body>
+</html>
