@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fancy Console</title>
+
+    <style>
+        #fancyConsole {
+            width: 1200px;
+            height: 650px;
+            background-color: black;
+            font-family: 'Lucida Console';
+            color: white;
+            padding: 5px;
+        }
+        actions {
+            position: relative;
+            bottom: 0;
+        }
+        button {
+            width: 400px;
+        }
+        #input {
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fancyConsole">
+    </div>
+
+    <div id="actions">
+        <p>Enter valid code below. Example: "<strong><em>specialConsole.writeLine("Message: {0}", "hello");</em></strong>". Only works with placeholders from 0 to 9 :</p>
+        <input type="text" id="input" />
+        <br />
+        <button id="submitBtn">Submit Code</button>
+    </div>
+
+    <script src="script.js" type='text/javascript'></script>
+    <script>
+        var submitBtn = document.querySelector('#submitBtn');
+        submitBtn.addEventListener('click', function () {
+            specialConsole.write(input);
+        });
+    </script>
+
+</body>
+
+</html>

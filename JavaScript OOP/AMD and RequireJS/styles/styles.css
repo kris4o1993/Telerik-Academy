@@ -1,0 +1,19 @@
+.person-item {
+    width: 250px;
+    height: 220px;
+    border:3px solid green;
+    border-radius: 10px;
+    display:none;
+}
+
+.person-item:hover {
+    background-color:lightblue;
+}
+
+.person-item {
+    display: none;
+}
+
+.person-item.selected {
+    display:block;
+}

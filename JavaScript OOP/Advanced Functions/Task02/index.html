@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Div Moving</title>
+    <script src="script.js" type='text/javascript'></script>
+    <style>
+        #wrapper {
+            width: 1200px;
+            height: 650px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="addRect">Move rectangularly</button>
+    <button id="addEllipse">Move circularly</button>
+    <div id="wrapper"></div>
+
+    <script>
+        var addRectMovement = document.querySelector('#addRect'),
+            addEllipseMovement = document.querySelector('#addEllipse');
+
+        addRectMovement.addEventListener('click', function () {
+            movingShapes.add('rect');
+        });
+
+        addEllipseMovement.addEventListener('click', function () {
+            movingShapes.add('ellipse');
+        });
+    </script>
+</body>
+
+</html>
