@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+	<album>
+		<name>Sound of fire na ice</name>
+		<artist>Beyonce</artist>
+	</album>
+	<album>
+		<name>Wild</name>
+		<artist>Jesse J</artist>
+	</album>
+	<album>
+		<name>Tunel</name>
+		<artist>Justin Timberlake</artist>
+	</album>
+</albums>

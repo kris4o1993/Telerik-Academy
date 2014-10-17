@@ -1,0 +1,1 @@
+Task 9 - You have to edit the connection string in the settings file. Replace the user and password for your MySQL server

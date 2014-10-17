@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+  <album>
+    <name>Wild</name>
+    <artist>Jesse J</artist>
+    <year>2013</year>
+    <producer>MusicPower</producer>
+    <price>12.00$</price>
+    <songs>
+      <song>
+        <title>Wild</title>
+        <duration>320s</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Tunel</name>
+    <artist>Justin Timberlake</artist>
+    <year>2013</year>
+    <producer>Soundcloud</producer>
+    <price>14.00$</price>
+    <songs>
+      <song>
+        <title>Ola ola</title>
+        <duration>290s</duration>
+      </song>
+      <song>
+        <title>Mirror</title>
+        <duration>321s</duration>
+      </song>
+      <song>
+        <title>Sexy magic ..</title>
+        <duration>312s</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>

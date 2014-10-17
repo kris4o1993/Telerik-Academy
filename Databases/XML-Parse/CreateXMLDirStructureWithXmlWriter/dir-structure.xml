@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dir-structure>
+  <file path="..\..\09. WriteXMLDirStructure.csproj" />
+  <file path="..\..\09. WriteXMLDirStructure.csproj.user" />
+  <file path="..\..\dir-structure.xml" />
+  <file path="..\..\WriteXMLDirStructure.cs" />
+  <dir-structure>
+    <dir-structure>
+      <file path="..\..\bin\Debug\WriteXMLDirStructure.exe" />
+      <file path="..\..\bin\Debug\WriteXMLDirStructure.pdb" />
+      <file path="..\..\bin\Debug\WriteXMLDirStructure.vshost.exe" />
+    </dir-structure>
+    <dir-structure />
+  </dir-structure>
+  <dir-structure>
+    <dir-structure>
+      <file path="..\..\obj\Debug\09. WriteXMLDirStructure.csproj.FileListAbsolute.txt" />
+      <file path="..\..\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+      <file path="..\..\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+      <file path="..\..\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+      <file path="..\..\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+      <file path="..\..\obj\Debug\WriteXMLDirStructure.csproj.FileListAbsolute.txt" />
+      <file path="..\..\obj\Debug\WriteXMLDirStructure.csprojResolveAssemblyReference.cache" />
+      <file path="..\..\obj\Debug\WriteXMLDirStructure.exe" />
+      <file path="..\..\obj\Debug\WriteXMLDirStructure.pdb" />
+      <dir-structure />
+    </dir-structure>
+  </dir-structure>
+  <dir-structure>
+    <file path="..\..\Properties\AssemblyInfo.cs" />
+  </dir-structure>
+</dir-structure>

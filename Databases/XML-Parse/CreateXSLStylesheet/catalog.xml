@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="catalog.xsl"?>
+<catalog>
+  <album>
+    <name>Sound of fire na ice</name>
+    <artist>Beyonce</artist>
+    <year>2008</year>
+    <producer>Americano</producer>
+    <price>20.00$</price>
+    <songs>
+      <song>
+        <title>Game of thrones</title>
+        <duration>240s</duration>
+      </song>
+      <song>
+        <title>North</title>
+        <duration>310s</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Wild</name>
+    <artist>Jesse J</artist>
+    <year>2013</year>
+    <producer>MusicPower</producer>
+    <price>12.00$</price>
+    <songs>
+      <song>
+        <title>Wild</title>
+        <duration>320s</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Tunel</name>
+    <artist>Justin Timberlake</artist>
+    <year>2013</year>
+    <producer>Soundcloud</producer>
+    <price>14.00$</price>
+    <songs>
+      <song>
+        <title>Ola ola</title>
+        <duration>290s</duration>
+      </song>
+      <song>
+        <title>Mirror</title>
+        <duration>321s</duration>
+      </song>
+      <song>
+        <title>Sexy magic ..</title>
+        <duration>312s</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
