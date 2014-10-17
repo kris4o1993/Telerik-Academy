@@ -1,0 +1,38 @@
+<div class="game-info center">
+    <div class="players-info">
+        <div class="well">
+            <strong>First player: </strong><span>{{firstPlayerName}}</span>
+        </div>
+        <div class="well">
+            <strong>Second player: </strong><span>{{secondPlayerName}}</span>
+        </div>
+        <br>
+        <div class="well game-status">
+            <strong>Game state: </strong><span>{{gameState}}</span><br>
+            <strong>Board: </strong><span>{{board}}</span><br>
+        </div>
+        <br>
+        <form class="moves">
+          <fieldset>
+            <legend>Make move:</legend>
+            <div class="form-group">
+              <label class="col-lg-2">Row</label>
+              <div class="col-lg-10">
+                <input type="text" ng-model="move.row">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-lg-2">Column</label>
+              <div class="col-lg-10">
+                <input type="text" ng-model="move.column">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-lg-10 col-lg-offset-2">
+                <button ng-click="play(move)" class="btn btn-primary">Play</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+    </div>
+</div>

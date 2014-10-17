@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeekService", "DayOfWeekService\DayOfWeekService.csproj", "{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayOfWeekService.Client", "DayOfWeekService.Client\DayOfWeekService.Client.csproj", "{C8E9292A-F243-43B4-B869-4E4B9F06A1C8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B} = {923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsCounterService", "ContainsCounterService\ContainsCounterService.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ContainsCounterService.IIS", "http://localhost:32651", "{24B3F63B-1A17-4457-83E1-63BC9305E97E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{15b3e0d2-6217-493a-a690-158c497f5318}|ContainsCounterService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_32651"
+		Debug.AspNetCompiler.PhysicalPath = "ContainsCounterService.IIS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32651\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_32651"
+		Release.AspNetCompiler.PhysicalPath = "ContainsCounterService.IIS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32651\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ContainsCounterService.IIS\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsCounterService.Client", "ContainsCounterService.Client\ContainsCounterService.Client.csproj", "{F14B4651-338E-41BF-B863-D190AD2BBE03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24B3F63B-1A17-4457-83E1-63BC9305E97E} = {24B3F63B-1A17-4457-83E1-63BC9305E97E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923FA6BD-DF5F-4A34-9CFE-169A1BAF8D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8E9292A-F243-43B4-B869-4E4B9F06A1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E9292A-F243-43B4-B869-4E4B9F06A1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E9292A-F243-43B4-B869-4E4B9F06A1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E9292A-F243-43B4-B869-4E4B9F06A1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24B3F63B-1A17-4457-83E1-63BC9305E97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B3F63B-1A17-4457-83E1-63BC9305E97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24B3F63B-1A17-4457-83E1-63BC9305E97E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{24B3F63B-1A17-4457-83E1-63BC9305E97E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F14B4651-338E-41BF-B863-D190AD2BBE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14B4651-338E-41BF-B863-D190AD2BBE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14B4651-338E-41BF-B863-D190AD2BBE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14B4651-338E-41BF-B863-D190AD2BBE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

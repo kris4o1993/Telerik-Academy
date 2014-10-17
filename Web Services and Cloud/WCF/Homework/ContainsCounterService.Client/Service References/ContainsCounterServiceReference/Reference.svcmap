@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4ef04bfc-6554-449e-820b-fcb3801ea3ac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:32651/ContainsCounterService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ContainsCounterService.disco" MetadataType="Disco" ID="6832d3e1-e9fb-4393-be49-fcc0219a38df" SourceId="1" SourceUrl="http://localhost:32651/ContainsCounterService.svc?disco" />
+    <MetadataFile FileName="ContainsCounterService.xsd" MetadataType="Schema" ID="b92277eb-fcea-43cb-be94-a01b1f1afff8" SourceId="1" SourceUrl="http://localhost:32651/ContainsCounterService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ContainsCounterService.wsdl" MetadataType="Wsdl" ID="7cab8496-5f2f-444e-bc06-53fe932f9715" SourceId="1" SourceUrl="http://localhost:32651/ContainsCounterService.svc?wsdl" />
+    <MetadataFile FileName="ContainsCounterService1.xsd" MetadataType="Schema" ID="13f3df92-f688-4e87-8379-c2d51b9cf7ec" SourceId="1" SourceUrl="http://localhost:32651/ContainsCounterService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
