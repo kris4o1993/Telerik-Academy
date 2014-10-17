@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanFactory", "HumanFactory\HumanFactory.csproj", "{AEF17D9D-10AC-48EF-89EA-3B3B5FC9B995}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsCodeFormat", "JsCodeFormat\JsCodeFormat.csproj", "{370BCC16-17E1-4E39-83EE-C02362BA1E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoolTaskRefractored", "BoolTaskRefractored\BoolTaskRefractored.csproj", "{DA017043-A2A1-4C6C-8724-2A5E8575DA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineSweeperRefactored", "MineSweeperRefactored\MineSweeperRefactored.csproj", "{728F4148-3359-412D-9E01-E9381BA753A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF17D9D-10AC-48EF-89EA-3B3B5FC9B995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF17D9D-10AC-48EF-89EA-3B3B5FC9B995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF17D9D-10AC-48EF-89EA-3B3B5FC9B995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF17D9D-10AC-48EF-89EA-3B3B5FC9B995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{370BCC16-17E1-4E39-83EE-C02362BA1E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{370BCC16-17E1-4E39-83EE-C02362BA1E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{370BCC16-17E1-4E39-83EE-C02362BA1E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{370BCC16-17E1-4E39-83EE-C02362BA1E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA017043-A2A1-4C6C-8724-2A5E8575DA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA017043-A2A1-4C6C-8724-2A5E8575DA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA017043-A2A1-4C6C-8724-2A5E8575DA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA017043-A2A1-4C6C-8724-2A5E8575DA59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728F4148-3359-412D-9E01-E9381BA753A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728F4148-3359-412D-9E01-E9381BA753A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728F4148-3359-412D-9E01-E9381BA753A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728F4148-3359-412D-9E01-E9381BA753A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
